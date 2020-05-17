@@ -1,5 +1,5 @@
 <div id="frontendManager" class="fm-panel" >
-	<a href="[[++manager_url]]" target="_blank" class="fm-logo"><img src="[[++manager_url]]templates/default/images/modx-icon-color.svg"></a>
+	<a href="[[++manager_url]]?a=resource/update&id={$_modx->resource.id}" target="_blank" class="fm-logo"><img src="[[++manager_url]]templates/default/images/modx-icon-color.svg"></a>
 	<a href="[[++manager_url]]" target="_blank" class="fm-mode"><span class="fm-icon-hide"><img src="[[++manager_url]]templates/default/images/modx-icon-color.svg"></span></a>
 	<a href="[[++manager_url]]?a=resource/update&id={$_modx->resource.id}" data-action="iframe"><span class="fm-icon-edit"></span> <span class="fm-link-text">{'frontendmanager_btn_edit' | lexicon}</span></a>
 	<a href="[[++manager_url]]?a=security/user" data-action="iframe"><span class="fm-icon-user"></span> <span class="fm-link-text">{'frontendmanager_btn_users' | lexicon}</span></a>
