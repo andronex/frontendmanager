@@ -5,7 +5,7 @@ $settings = array();
 $tmp = array(
 	'frontend_css' => array(
 		'xtype' => 'textfield',
-		'value' => 'frontend.css',
+		'value' => 'myfront.css',
 		'area' => 'frontendmanager_frontend',
 	),
 	'frontend_js' => array(
